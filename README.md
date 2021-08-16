@@ -1,4 +1,4 @@
-# csv-to-json-converter
+# csv-to-json-converter for CVD dataset
 A shell script that converts CVD dataset csv file to its corresponding json file
 
 __Tested in Windows__   
@@ -64,7 +64,7 @@ Checks for existence of filename(input)<br>
 <code>read first_line < $input</code><br>
 Reads first line of input file and stores it in first_line<br>
 <code>attributes=`echo $first_line | awk -F, {'print NF'}`</code><br>
-#### echo $first_line | awk -F, {'print NF'} with tail tags acts as a Bash command where:
+echo $first_line | awk -F, {'print NF'} with tail tags acts as a Bash command where:
 1. awk for pattern scanning and processing<br>
 2. awk -F fs: where fs is the input seperator<br>
 3. NF is the count of input fields<br>
