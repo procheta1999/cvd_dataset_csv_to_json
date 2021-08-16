@@ -59,7 +59,7 @@ So while converting to json, it will appear almost like this :
 <code>input=$1</code>
 <br>Takes input parameter<br>
 <code>[ -z $1 ]</code><br>
-<br>Checks if input[1] is empty or not
+Checks if input[1] is empty or not
 <code>[ ! -e $input ]</code><br>
 Checks for existence of filename(input)<br>
 <code>read first_line < $input</code><br>
