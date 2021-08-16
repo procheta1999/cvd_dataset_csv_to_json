@@ -57,7 +57,7 @@ So while converting to json, it will appear almost like this :
 
 ## Explanantion of the code:
 <code>input=$1</code>
-<br>Takes input parameter
+<br>Takes input parameter<br>
 <code>[ -z $1 ]</code><br>
 <br>Checks if input[1] is empty or not
 <code>[ ! -e $input ]</code><br>
